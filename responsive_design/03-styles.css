@@ -47,7 +47,6 @@ main section img {
   padding-right: 1rem;
 }
 
-
 /* Grid section */
 .col-1-3,
 .col-1-2 {
@@ -59,4 +58,10 @@ main section img {
   .navbar-menu {
     display: none;
   }
+}
+
+
+.article-page .section-hero {
+  margin-top: -8.5rem;
+  padding-top: 5rem;
 }

@@ -19,7 +19,7 @@
     />
     <link rel="stylesheet" href="00-styles.css" />
   </head>
-  <body>
+  <body class="article-page">
     <!– Header –>
     <header class="header" data-section-theme="dark">
       <div class="container">
@@ -34,6 +34,10 @@
               />
             </a>
           </div>
+          <input class="menu-btn" type="checkbox" id="menu-btn" />
+          <label class="menu-icon" for="menu-btn">
+            <span class="navicon"></span>
+          </label>
           <nav class="navbar-menu">
             <ul class="nav">
               <li class="nav-item">
@@ -219,10 +223,13 @@
             <div class="row">
               <div class="col-1-2">
                 <img
-                  src="./images/pic-about-01.jpg"
+                  sizes="(max-width: 700px) 100vw, 700px"
+                  srcset="
+                    pic-about-01_owzy5c_ar_1_1,c_fill,g_auto__c_scale,w_380.jpg 380w,
+                    pic-about-01_owzy5c_ar_1_1,c_fill,g_auto__c_scale,w_700.jpg 700w
+                  "
+                  src="pic-about-01_owzy5c_ar_1_1,c_fill,g_auto__c_scale,w_700.jpg"
                   alt=""
-                  width="460"
-                  height="460"
                 />
               </div>
               <div class="col-1-2">
@@ -267,10 +274,12 @@
                 <article class="card-blog">
                   <div>
                     <img
-                      src="./images/pic-article-01.jpg"
+                      sizes="(max-width: 333px) 100vw, 333px"
+                      srcset="
+                        pic-article-01_rjf9c7_ar_1_1,c_fill,g_auto__c_scale,w_333.jpg 333w
+                      "
+                      src="pic-article-01_rjf9c7_ar_1_1,c_fill,g_auto__c_scale,w_333.jpg"
                       alt=""
-                      width="305"
-                      height="305"
                     />
                   </div>
                   <p class="card-category">Career</p>
@@ -289,10 +298,12 @@
                 <article class="card-blog">
                   <div>
                     <img
-                      src="./images/pic-article-02.jpg"
+                      sizes="(max-width: 333px) 100vw, 333px"
+                      srcset="
+                        pic-article-02_rgc1da_ar_1_1,c_fill,g_auto__c_scale,w_333.jpg 333w
+                      "
+                      src="pic-article-02_rgc1da_ar_1_1,c_fill,g_auto__c_scale,w_333.jpg"
                       alt=""
-                      width="305"
-                      height="305"
                     />
                   </div>
                   <p class="card-category">Digital Life</p>
@@ -315,11 +326,13 @@
                 <article class="card-blog">
                   <div>
                     <img
-                      src="./images/pic-article-03.jpg"
+                      sizes="(max-width: 333px) 100vw, 333px"
+                      srcset="
+                        pic-article-03_vsp0cn_ar_1_1,c_fill,g_auto__c_scale,w_333.jpg 333w
+                      "
+                      src="pic-article-03_vsp0cn_ar_1_1,c_fill,g_auto__c_scale,w_333.jpg"
                       alt=""
-                      width="305"
-                      height="305"
-                    />
+                    />s
                   </div>
                   <p class="card-category">Social</p>
                   <h3><a href="#">Bestiarum vero nullum iudicium puto.</a></h3>
